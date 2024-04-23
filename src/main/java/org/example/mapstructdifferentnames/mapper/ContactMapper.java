@@ -1,7 +1,7 @@
-package org.example.mapstructbasic.mapper;
+package org.example.mapstructdifferentnames.mapper;
 
-import org.example.mapstructbasic.dto.ContactDTO;
-import org.example.mapstructbasic.entity.Contact;
+import org.example.mapstructdifferentnames.dto.ContactDTO;
+import org.example.mapstructdifferentnames.entity.Contact;
 import org.mapstruct.Mapper;
 
 import java.util.List;

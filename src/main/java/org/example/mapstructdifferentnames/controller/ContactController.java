@@ -1,8 +1,8 @@
-package org.example.mapstructbasic.controller;
+package org.example.mapstructdifferentnames.controller;
 
-import org.example.mapstructbasic.dto.ContactDTO;
-import org.example.mapstructbasic.entity.Contact;
-import org.example.mapstructbasic.service.ContactService;
+import org.example.mapstructdifferentnames.dto.ContactDTO;
+import org.example.mapstructdifferentnames.entity.Contact;
+import org.example.mapstructdifferentnames.service.ContactService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

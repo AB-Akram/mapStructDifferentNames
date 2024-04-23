@@ -7,12 +7,12 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "contact")
+@Table(name = "\"user\"") //By adding \" around "user" in your @Table annotation, you're telling PostgreSQL to treat "user" as a literal table name and not as a reserved keyword
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Contact {
+public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")

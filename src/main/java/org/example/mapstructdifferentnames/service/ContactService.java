@@ -1,9 +1,9 @@
-package org.example.mapstructbasic.service;
+package org.example.mapstructdifferentnames.service;
 
-import org.example.mapstructbasic.dto.ContactDTO;
-import org.example.mapstructbasic.entity.Contact;
-import org.example.mapstructbasic.mapper.ContactMapper;
-import org.example.mapstructbasic.repository.ContactRepository;
+import org.example.mapstructdifferentnames.dto.ContactDTO;
+import org.example.mapstructdifferentnames.entity.Contact;
+import org.example.mapstructdifferentnames.mapper.ContactMapper;
+import org.example.mapstructdifferentnames.repository.ContactRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
